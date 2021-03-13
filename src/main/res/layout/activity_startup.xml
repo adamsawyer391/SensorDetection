@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/toolbar"
+        android:background="@color/purple_200">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:textSize="24sp"
+            android:ellipsize="end"
+            android:maxLength="25"
+            android:layout_marginStart="10dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relLayout1"
+        android:padding="10dp"
+        android:layout_below="@id/toolbar">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/ivFlashLight"
+            android:contentDescription="@string/turn_on_flashlight_icon"
+            android:src="@drawable/ic_flashlight"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/turn_on_off_flashlight"
+            android:layout_toEndOf="@id/ivFlashLight"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relLayout2"
+        android:padding="10dp"
+        android:layout_below="@+id/relLayout1">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/ivTemperature"
+            android:layout_marginStart="10dp"
+            android:contentDescription="@string/sensor_list_icon"
+            android:src="@drawable/ic_thermometer"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_atmosphere"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp"
+            android:layout_toEndOf="@id/ivTemperature"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relLayout3"
+        android:padding="10dp"
+        android:layout_below="@id/relLayout2">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/ivSensors"
+            android:layout_marginStart="10dp"
+            android:contentDescription="@string/sensor_list_icon"
+            android:src="@drawable/ic_sensors"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_sensor_list"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp"
+            android:layout_toEndOf="@id/ivSensors"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

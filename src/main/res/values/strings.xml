@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">SensorDetection</string>
+    <string name="sensor_list">Sensor List</string>
+
+    <string name="title_sensor">Sensor: </string>
+    <string name="title_vendor">Vendor: </string>
+    <string name="title_type">Type: </string>
+    <string name="title_fifo_max">Fifo Max Event Count: </string>
+    <string name="title_fifo_reserve">Fifo Reserve Event Count: </string>
+    <string name="title_resolution">Resolution: </string>
+    <string name="title_direct_report">Highest Direct Report Level: </string>
+    <string name="title_id">ID: </string>
+    <string name="title_max_delay">Max Delay: </string>
+    <string name="title_maximum_range">Maximum Range: </string>
+    <string name="title_min_delay">Minimum Delay: </string>
+    <string name="title_power">Power: </string>
+    <string name="title_reporting_mode">Reporting Mode: </string>
+    <string name="title_string">String Type: </string>
+    <string name="title_version">Version: </string>
+    <string name="title_dynamic">Dynamic Sensor: </string>
+    <string name="title_wakeup">Wakeup Sensor: </string>
+    <string name="not_available">N/A: This sensor attribute is not available</string>
+    <string name="turn_on_flashlight_icon">Turn on flashlight icon</string>
+    <string name="turn_on_off_flashlight">Turn On/Off Flashlight</string>
+    <string name="view_sensor_list">View Sensor List</string>
+    <string name="sensor_list_icon">Sensor List Icon</string>
+    <string name="view_atmosphere">View Atmosphere</string>
+    <string name="millibars"> millibars</string>
+    <string name="air_pressure">Air Pressure</string>
+    <string name="air_temperature">Air Temperature</string>
+    <string name="no_temperature">This device does not have an ambient temperature sensor.</string>
+    <string name="farenheit">Fahrenheit</string>
+    <string name="magnetic_field_strength">Magnetic Field Strength</string>
+    <string name="no_magnetic_field">This devices does not have a magentic field sensor.</string>
+    <string name="teslas">Teslas</string>
+    <string name="gravitational_field_strength">Gravitational Field Strength</string>
+    <string name="newtons">Newtons</string>
+    <string name="no_gravity">This device does not have a gravitational sensor.</string>
+    <string name="humidity">Humidity</string>
+    <string name="no_sensor">This device is not equipped with the desired sensor.</string>
+    <string name="percentage">%</string>
+
+</resources>
